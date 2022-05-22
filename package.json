@@ -1,0 +1,32 @@
+{
+  "name": "cash-in-out-fees",
+  "version": "1.0.0",
+  "description": "cash in/out fees calculation module",
+  "main": "index.js",
+  "scripts": {
+    "start": "node --es-module-specifier-resolution=node src/index.js",
+    "test": "node --es-module-specifier-resolution=node ./node_modules/.bin/jasmine",
+    "lint": "./node_modules/.bin/eslint"
+  },
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StoikovOleh/Cash-In-Out-fees.git"
+  },
+  "author": "O_Stoikov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StoikovOleh/Cash-In-Out-fees/issues"
+  },
+  "homepage": "https://github.com/StoikovOleh/Cash-In-Out-fees#readme",
+  "devDependencies": {
+    "eslint": "^8.2.0",
+    "eslint-config-airbnb": "19.0.4",
+    "eslint-config-airbnb-base": "15.0.0",
+    "eslint-plugin-import": "^2.25.3",
+    "jasmine": "^4.1.0"
+  },
+  "dependencies": {
+    "date-fns": "^2.28.0"
+  }
+}
